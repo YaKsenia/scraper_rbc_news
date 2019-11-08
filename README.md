@@ -13,4 +13,4 @@ then you can just run the file main_rbc.py using this command in your Terminal:
 python3.6 main_rbc.py 
 
 
-The resulting csv-file will be saved in the folder of the project.
+The resulting csv-file will be saved in the folder of the project. No matter how many articles will be in your results, the script automatically scrolls the webpage down until it reaches the end and scrapes all the articles.
