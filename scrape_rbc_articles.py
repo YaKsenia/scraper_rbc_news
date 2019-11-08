@@ -118,8 +118,6 @@ class Scraper():
 	
 	def scrape_all(self, df):
 
-		#df = pd.read_csv(input_filename, sep=',', low_memory=False, na_values = ['no info', '.'])
-		#df = df.drop_duplicates(subset=['links'], keep='first', inplace=False)
 		links = list(df['links'])
 		titles = []
 		texts = []
@@ -134,10 +132,3 @@ class Scraper():
 
 		return final
 
-	#final.to_csv('rbc_articles.csv')
-
-
-#if __name__ == '__main__':
-#	main('/home/ksenia_new/projects/scraping_thesis/rbc_scripts/rbc_links_new_final.csv')
-#print(plain_text)
-#article__text article__text_free
