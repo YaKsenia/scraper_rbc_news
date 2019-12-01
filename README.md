@@ -1,4 +1,4 @@
-# scraper of RBC news articles
+# Scraper of RBC news articles
 
 This project collects news articles' titles and texts from the website of Russian newspaper RBC. You can choose any topic and time period, from which you want to get the articles.
 
