@@ -4,9 +4,14 @@ This project collects news articles' titles and texts from the website of Russia
 
 Before running the project, you have to install the necessary software typing this command in your Terminal:
 
+(Эта программа скачивает заголовки и тексты новостных статей с сайта российской газеты РБК. Вы можете выбрать любую тему и период времени, за который вы хотите собрать статьи.
+
+Перед запуском проекта вам необходимо установить необходимое программное обеспечение, набрав эту команду в вашем терминале (командной строке):
+
 python3.6 -m pip install -r requirements.txt --upgrade
 
 Then you should go to rbc.ru/search, choose the keywords and dates you are interested in, copy the resulting link and replace the link in settings.py file with this url.
+
 
 ![alt text](https://github.com/YaKsenia/scraper_rbc_news/blob/master/output/Screenshot_of_link_you_have_to_copy.png)
 
