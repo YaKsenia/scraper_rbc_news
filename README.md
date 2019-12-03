@@ -1,5 +1,7 @@
 # Scraper of RBC news articles
 
+(описание на русском ниже)
+
 This project collects news articles' titles and texts from the website of Russian newspaper RBC. You can choose any topic and time period, from which you want to get the articles.
 
 Before running the project, you have to install the necessary software typing this command in your Terminal:
