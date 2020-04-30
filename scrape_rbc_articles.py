@@ -1,7 +1,6 @@
 import requests
 import re
 from bs4 import BeautifulSoup
-from headers import HEADERS
 from selenium import webdriver
 import pandas as pd
 import re
